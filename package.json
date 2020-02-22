@@ -1,11 +1,15 @@
 {
     "name": "yastream",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "author": "Wilson Mália",
     "repository": "wabmalia/yastream",
     "description": "Yet another stream library",
-    "keywords": ["npm","stream","wabmalia"],
+    "keywords": [
+        "npm",
+        "stream",
+        "wabmalia"
+    ],
     "main": "index.js",
     "scripts": {
         "test": "jest",
