@@ -24,6 +24,23 @@ This module is distributed via npm:
 npm install yastream
 ```
 
+## Stream operations
+
+Everything begins when you create a stream: **stream**(array).
+
+There are several operation you can perform over a stream, but some can be **stacked** and others are **terminal**.
+In order to **solve the stream** it is **mandatory** to perform a **terminal operation**
+
+### Stackable
+* map(map_function)
+* filter(condition)
+
+### Terminal
+* do()
+* count()
+* reduce(reducer_function, acc_start_value)
+* findFirst(condition)
+
 ## Examples
 For quick examples you can check bellow, but for complete functionality coverage you can look into the test files.
 
