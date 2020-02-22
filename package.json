@@ -1,16 +1,16 @@
 {
     "name": "yastream",
     "version": "1.0.0",
+    "license": "MIT",
+    "author": "Wilson Mália",
+    "repository": "wabmalia/yastream",
     "description": "Yet another stream library",
+    "keywords": ["npm","stream","wabmalia"],
     "main": "index.js",
     "scripts": {
-        "build": "webpack --mode production",
         "test": "jest",
         "test:watch": "jest --watch"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
     "devDependencies": {
         "jest": "^25.1.0"
     }
